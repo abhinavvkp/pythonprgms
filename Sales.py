@@ -8,7 +8,7 @@ print("Sales Dataset:")
 print(df)
 
 # Find total sales
-total_ sales = df["Sales"].sum()
+total_sales = df["Sales"].sum()
 print("\nTotal Sales:", total_sales)
 
 # Find average sales
