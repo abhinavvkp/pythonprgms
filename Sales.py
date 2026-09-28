@@ -5,7 +5,7 @@ df = pd.read_csv("sakes.csv")
 
 # Display the dataset
 print("Sales Dataset:")
-print(df)
+print (df)
 
 # Find total sales
 total_sales = df["Sales"].sum()
@@ -30,6 +30,6 @@ result = df[df["Sales"] > amount]
 print(result)
 
 # Sort sales data in descending order
-print ("\nSales Data Sorted by Sales:")
+print("\nSales Data Sorted by Sales:")
 sorted_df = df.sort_values(by="Sales", ascending=False)
 print(sorted_df)
